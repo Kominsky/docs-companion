@@ -7,15 +7,15 @@
 Docs Companion puts you back in the driver's seat. Instead of AI autocompleting your code, this extension acts as your knowledgeable companion—like having an experienced developer sitting next to you, ready to explain things when you ask.
 
 ### What it does:
-- 📖 Shows relevant documentation for packages and symbols
-- 🎯 Understands your project context (dependencies, imports, file structure)
-- ⚡ Fast, local-first where possible
-- 🚫 **Never writes code for you**—only informs
+- Shows relevant documentation for packages and symbols
+- Understands your project context (dependencies, imports, file structure)
+- Fast, local-first where possible
+- **Never writes code for you**—only informs
 
 ### What it's NOT:
-- ❌ Not an autocomplete tool
-- ❌ Not a code generator
-- ❌ Not trying to replace you as a developer
+- Not an autocomplete tool
+- Not a code generator
+- Not trying to replace you as a developer
 
 ## Features
 
@@ -36,12 +36,12 @@ Docs Companion puts you back in the driver's seat. Instead of AI autocompleting 
   - Source attribution for all information
 
 ### Planned Features
-- 🔄 Context-aware suggestions based on what you're writing
-- 🔍 Pattern recognition (e.g., "looks like you're setting up OAuth")
-- 📚 Support for more documentation sources (MDN, TypeScript, Python docs)
-- 💾 Local caching for faster lookups
-- 🌳 Project structure analysis
-- 🎨 Syntax-specific documentation (TSX, JSX, etc.)
+- Context-aware suggestions based on what you're writing
+- Pattern recognition (e.g., "looks like you're setting up OAuth")
+- Support for more documentation sources (MDN, TypeScript, Python docs)
+- Local caching for faster lookups
+- Project structure analysis
+- Syntax-specific documentation (TSX, JSX, etc.)
 
 ## Installation
 
@@ -51,9 +51,6 @@ Docs Companion puts you back in the driver's seat. Instead of AI autocompleting 
 3. Press `F5` in VS Code to open Extension Development Host
 4. Open a TypeScript/JavaScript project
 5. Try pressing `Ctrl+Shift+D` on a package name!
-
-### From Marketplace
-*Coming soon once extension is published*
 
 ## Usage
 
@@ -78,7 +75,7 @@ const response = await axios.get('https://api.example.com');
 
 ## Roadmap
 
-### Phase 1: MVP ✅ (Current)
+### Phase 1: MVP (Current)
 - [x] Basic VS Code extension structure
 - [x] Keybind for documentation lookup
 - [x] npm package documentation fetching
@@ -110,8 +107,6 @@ cd docs-companion
 npm install
 ```
 
-Press `F5` to launch the Extension Development Host and test your changes.
-
 ### Project Structure
 ```
 docs-companion/
@@ -128,10 +123,3 @@ docs-companion/
 
 Inspired by a conversation about putting the developer back in control and making AI tools that teach rather than replace.
 
-## License
-
-MIT
-
----
-
-**Note:** This is an early-stage project. Expect bugs and missing features. Your feedback helps shape the direction!

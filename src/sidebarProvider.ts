@@ -139,7 +139,7 @@ export class SidebarProvider implements vscode.WebviewViewProvider {
 <body>
     <div id="content">
         <div class="empty-state">
-            <h2>📚 Docs Companion</h2>
+            <h2>Docs Companion</h2>
             <p>Press <code>Ctrl+Shift+D</code> (or <code>Cmd+Shift+D</code> on Mac) with your cursor on a symbol to see its documentation.</p>
             <p style="margin-top: 20px; font-size: 0.9em;">This extension helps you understand your code by providing contextual documentation without writing any code for you.</p>
         </div>
@@ -175,7 +175,7 @@ export class SidebarProvider implements vscode.WebviewViewProvider {
                 
                 let sourceHtml = '';
                 if (doc.source) {
-                    sourceHtml = \`<div class="source">📖 Source: \${doc.source}</div>\`;
+                    sourceHtml = \`<div class="source">Source: \${doc.source}</div>\`;
                 }
                 
                 contentDiv.innerHTML = \`
